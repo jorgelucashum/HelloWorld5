@@ -9,7 +9,7 @@ namespace HelloWorld5
     class Program
     {
 
-        // enum: A maneira de criar um tipo pra valores limitados de dados. Cada um tem seu id
+        // enum: A maneira de criar um tipo pra valores limitados de dados. Cada um tem seu id (mais organizado)
                    //     20       21        80         81
         // enum Cor { Azul = 20, Verde, Amarelo = 80, Vermelho}
 
@@ -43,12 +43,13 @@ namespace HelloWorld5
 
             Console.WriteLine("estados: ");
             Console.WriteLine(estadoUnfav);
-            // cast - conerter um tipo para o outro exemplo: ((int)estadoFav), nesse caso vai mostrar o id que está em int
+
+            // cast - converter um tipo para o outro exemplo: ((int)estadoFav), nesse caso vai mostrar o id que está em int
             Console.WriteLine((int)estadoFav);
             Console.WriteLine((Estados)2); //nesse caso o cast atribuiu o valor de Estados (que nesse caso é GO) ao numero 2
 
 
-            // menu com swutch + num
+            // menu com switch + num
             Console.WriteLine("");
             Console.WriteLine("Escolha uma das opcões abaixo: ");
             Console.WriteLine("1-Criar\n2-Deletar\n3-Editar\n4-Listar \n5-Atualizar"); // \n - quebrar linha
