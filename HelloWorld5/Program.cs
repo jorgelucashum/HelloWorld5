@@ -49,7 +49,7 @@ namespace HelloWorld5
             Console.WriteLine((Estados)2); //nesse caso o cast atribuiu o valor de Estados (que nesse caso é GO) ao numero 2
 
 
-            // menu com switch + num
+            // menu com switch + enum
             Console.WriteLine("");
             Console.WriteLine("Escolha uma das opcões abaixo: ");
             Console.WriteLine("1-Criar\n2-Deletar\n3-Editar\n4-Listar \n5-Atualizar"); // \n - quebrar linha
